@@ -4,7 +4,7 @@ App need web directory access by HTTP.
 Http access can be configured by vagrant:
 ```vagrant up``` in directory with Vagrantfile.
 Next you need ssh to machine: ```vagrant ssh```
-and run bootstrap.sh. This sript will setup web directory with apache server.
+and run bootstrap.sh. This script will setup web directory with apache server.
 
 Instalation:
 
