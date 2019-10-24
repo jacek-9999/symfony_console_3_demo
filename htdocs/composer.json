@@ -1,0 +1,27 @@
+{
+  "name": "divante/integration",
+  "description": "CLI based application to integrate with suppliers.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Divante Sp. z o. o.",
+      "email": "rekrutacja@divante.pl"
+    }
+  ],
+  "require": {
+    "php" : "^5.5 || ^7.0",
+    "symfony/console" : "3.0.*",
+    "symfony/event-dispatcher" : "3.0.*",
+    "monolog/monolog" : "1.17.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Divante\\Integration\\": "src/Divante/Integration/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "mockery/mockery": "^0.9.11"
+  }
+}

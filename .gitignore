@@ -1,0 +1,4 @@
+htdocs/vendor
+.idea
+.vagrant
+htdocs/log/*
